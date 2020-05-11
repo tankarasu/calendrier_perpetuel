@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="calendrier">
+        <h1>Le calendrier perpetuel</h1>
+        <input id="jour" class="jour" type="number" min="1" max="31" step="1" />
+        <select name="" id="mois" class="mois">
+          <option value="Jan">Janvier</option>
+          <option value="Fev">Fevrier</option>
+          <option value="Mar">Mars</option>
+          <option value="Avr">Avril</option>
+          <option value="Mai">Mai</option>
+          <option value="Jui">Juin</option>
+          <option value="Jul">Juillet</option>
+          <option value="Aou">Aout</option>
+          <option value="Sep">Septembre</option>
+          <option value="Oct">Octobre</option>
+          <option value="Nov">Novembre</option>
+          <option value="Dec">Decembre</option>
+        </select>
+
+        <input
+          id="annee"
+          class="annee"
+          type="number"
+          min="1582"
+          max="2499"
+          step="1"
+        />
+        <span class="resultat"> </span>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
